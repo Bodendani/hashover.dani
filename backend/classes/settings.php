@@ -46,7 +46,7 @@ class Settings extends SensitiveSettings
 		$root_directory = dirname (dirname (__DIR__));
 
 		// Get HTTP root directory
-		$http_directory = '/' . basename ($root_directory);
+		$http_directory = '/alpencross/' . basename ($root_directory);
 
 		// Replace backslashes with forward slashes on Windows
 		if (DIRECTORY_SEPARATOR === '\\') {
