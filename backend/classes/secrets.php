@@ -30,19 +30,19 @@ class Secrets
 	// REQUIRED SETUP INFORMATION
 
 	// Admin e-mail address to send notifications to
-	protected $notificationEmail = 'example@example.com';
+	protected $notificationEmail = 'daniel.schmid@tetrasoft.ch';
 
 	// E-mail address to use in notifications to normal users
-	protected $noreplyEmail = 'noreply@example.com';
+	protected $noreplyEmail = 'noreply@tetrasoft.ch';
 
 	// Unique encryption key (case-sensitive)
-	protected $encryptionKey = '8CharKey';
+	protected $encryptionKey = 'harDtoGuesss34';
 
 	// Login name to gain admin rights (case-sensitive)
-	protected $adminName = 'admin';
+	protected $adminName = 'dani';
 
 	// Login password to gain admin rights (case-sensitive)
-	protected $adminPassword = 'passwd';
+	protected $adminPassword = 'mySeecret55';
 
 	// OPTIONAL SQL INFORMATION
 
@@ -50,7 +50,7 @@ class Secrets
 	protected $databaseType = 'sqlite';
 
 	// Database name
-	protected $databaseName = 'hashover';
+	protected $databaseName = 'alpencross';
 
 	// SQL database host name
 	protected $databaseHost = 'localhost';
