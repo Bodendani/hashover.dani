@@ -29,6 +29,16 @@ conditions, unless such conditions are required by law.
 	display: block;
 }
 
+div.hashover.hashover-desktop {
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+div.hashover.hashover-mobile {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .hashover :before,
 .hashover :after {
 	position: relative;
