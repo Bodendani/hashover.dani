@@ -29,16 +29,6 @@ conditions, unless such conditions are required by law.
 	display: block;
 }
 
-div.hashover.hashover-desktop {
-	margin-left: 90px;
-	margin-right: 90px;
-}
-
-div.hashover.hashover-mobile {
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
 .hashover :before,
 .hashover :after {
 	position: relative;
@@ -721,14 +711,14 @@ div.hashover.hashover-mobile {
 
 .hashover .hashover-reply .hashover-header {
 	padding: 12px 12px 0px 12px;
-	margin-left: 48px;
+	margin-left: 22px;
 	border-bottom: none;
 }
 
 .hashover .hashover-reply .hashover-reply,
 .hashover .hashover-reply .hashover-reply-form {
 	padding: 0px;
-	margin: 12px 0px 0px 48px;
+	margin: 12px 0px 0px 22px;
 }
 
 .hashover .hashover-comment .hashover-avatar {
@@ -795,7 +785,7 @@ div.hashover.hashover-mobile {
 
 .hashover .hashover-reply > .hashover-balloon,
 .hashover .hashover-reply-form .hashover-balloon {
-	margin-left: 48px;
+	margin-left: 22px;
 	border-top: none;
 }
 
