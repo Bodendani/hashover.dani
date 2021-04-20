@@ -30,19 +30,19 @@ class Secrets
 	// REQUIRED SETUP INFORMATION
 
 	// Admin e-mail address to send notifications to
-	protected $notificationEmail = 'daniel.schmid@tetrasoft.ch';
+	protected $notificationEmail = 'bettina.a.schmid@gmail.com';
 
 	// E-mail address to use in notifications to normal users
 	protected $noreplyEmail = 'noreply@tetrasoft.ch';
 
 	// Unique encryption key (case-sensitive)
-	protected $encryptionKey = 'harDtoGuesss34';
+	protected $encryptionKey = '';
 
 	// Login name to gain admin rights (case-sensitive)
-	protected $adminName = 'dani';
+	protected $adminName = '';
 
 	// Login password to gain admin rights (case-sensitive)
-	protected $adminPassword = 'mySeecret55';
+	protected $adminPassword = '';
 
 	// OPTIONAL SQL INFORMATION
 
@@ -50,7 +50,7 @@ class Secrets
 	protected $databaseType = 'sqlite';
 
 	// Database name
-	protected $databaseName = 'alpencross';
+	protected $databaseName = 'eurobike';
 
 	// SQL database host name
 	protected $databaseHost = 'localhost';
